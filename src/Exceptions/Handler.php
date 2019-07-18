@@ -9,7 +9,7 @@ use Illuminate\Http\Exceptions\HttpResponseException;
 use Illuminate\Validation\ValidationException;
 use MittoPlus\BaseComponent\Traits\TraitResponse;
 
-class BaseHandler extends ExceptionHander
+class Handler extends ExceptionHander
 {
     protected $methodGetStatusCode = 'getStatusCode';
 
